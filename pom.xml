@@ -15,6 +15,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <properties>
+	<sonar.host.url>http://54.158.207.140:9000/</sonar.host.url>
+	<sonar.login>admin</sonar.login>
+	<sonar.password>admin@123</sonar.password>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+  </properties>
   <build>
     <finalName>java-web-app</finalName>
   </build>

@@ -16,25 +16,25 @@
     </dependency>
   </dependencies>
   <properties>
-	<sonar.host.url>http://54.236.28.179:9000/</sonar.host.url>
+	<sonar.host.url>http://18.204.3.181:9000/</sonar.host.url>
 	<sonar.login>admin</sonar.login>
 	<sonar.password>admin@123</sonar.password>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
-  <distributionManagement>
+  <!--distributionManagement>
     <repository>
       <id>nexus</id>
       <name>Mithun Technologies Releases Nexus Repository</name>
-      <url>http://54.236.28.179:8081/repository/maven-releases/</url>
+      <url>http://18.204.3.181:8081/repository/maven-releases/</url>
     </repository>
 
     <snapshotRepository>
       <id>nexus</id>
       <name>Mithun Technologies Snapshot Nexus Repository </name>
-      <url>http://54.236.28.179:8081/repository/maven-snapshots/</url>
+      <url>http://18.204.3.181:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
-</distributionManagement>
+</distributionManagement-->
   <build>
     <finalName>java-web-app</finalName>
   </build>

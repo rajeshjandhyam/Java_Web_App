@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <properties>
-	<sonar.host.url>http://18.204.3.181:9000/</sonar.host.url>
+	<sonar.host.url>http://54.160.85.16:9000/</sonar.host.url>
 	<sonar.login>admin</sonar.login>
 	<sonar.password>admin@123</sonar.password>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,13 +26,13 @@
     <repository>
       <id>nexus</id>
       <name>Mithun Technologies Releases Nexus Repository</name>
-      <url>http://18.204.3.181:8081/repository/maven-releases/</url>
+      <url>http://54.160.85.16:8081/repository/maven-releases/</url>
     </repository>
 
     <snapshotRepository>
       <id>nexus</id>
       <name>Mithun Technologies Snapshot Nexus Repository </name>
-      <url>http://18.204.3.181:8081/repository/maven-snapshots/</url>
+      <url>http://54.160.85.16:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
